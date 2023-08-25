@@ -1,0 +1,30 @@
+{
+  "name": "myquotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya02jha/MyQuotes.git"
+  },
+  "author": "Aditya Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aditya02jha/MyQuotes/issues"
+  },
+  "homepage": "https://github.com/Aditya02jha/MyQuotes#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
